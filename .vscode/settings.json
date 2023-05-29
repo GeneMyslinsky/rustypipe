@@ -1,0 +1,9 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\rustypipe\\Cargo.toml",
+        ".\\rustypipe\\Cargo.toml",
+        ".\\rustypipetest\\Cargo.toml",
+        ".\\rustypipe\\Cargo.toml",
+        ".\\rustypipe\\Cargo.toml"
+    ]
+}
