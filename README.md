@@ -1,5 +1,21 @@
 # rustypipe
 Write raw queries to your steampipe DB with a HTTP API interface
+## USAGE:
+
+export the required env vars
+```
+export DB_HOST='localhost'
+export DB_USER='steampipe'
+export DB_PORT='9193'
+export DB_PASSWORD='000hSt34my'
+
+cargo run
+```
+
+make plaintext requests in raw SQL
+```
+curl -v -d "select instance_id,monitoring_state,tags from aws_ec2_instance" http://localhost:3000/raw
+```
 
 Features:
 
