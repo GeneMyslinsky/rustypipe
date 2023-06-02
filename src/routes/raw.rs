@@ -1,7 +1,7 @@
 use indexmap::IndexMap;
 // use tokio_postgres::types::;
 use serde_json::{Value as JsonValue, json};
-use tokio_postgres::types::{Type, Json};
+use tokio_postgres::types::{Type};
 use serde::{Serialize};
 use crate::sp::ConnectionPool;
 use crate::{internal_error};
