@@ -1,7 +1,5 @@
-use std::{env, string};
+use std::{env};
 use dotenv::dotenv;
-
-
 
 pub struct Config {
     pub db_host: String,
