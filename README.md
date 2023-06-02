@@ -7,6 +7,7 @@ Implemented:
 - Run a raw SQL query through curl and get the output back as JSON including.
 - Deserialize JSONB (postgres) to native JSON output (web-api)
 
+```
 Serialization:
 /// | Rust type                         | Postgres type(s)                              |
 /// |-----------------------------------|-----------------------------------------------|
@@ -51,9 +52,11 @@ Serialization:
 /// | `smol_str::SmolStr`             | VARCHAR, CHAR(n), TEXT, CITEXT,     | -> Str
 /// |                                 | NAME, UNKNOWN, LTREE, LQUERY,       | -> Str
 /// |                                 | LTXTQUERY                           |
+```
 
 Todo:
 - Front end query writer and table display
+    - using leptos? a girl can dream
 - on disk cache for fast retrieval
     - add params ?cache=['save','use']
     - hash the query and save the results to disk
