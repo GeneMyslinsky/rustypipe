@@ -1,3 +1,3 @@
 # rustypipe
-Write raw queries to your steampipe DB with an HTTP API interface
+Write raw queries to your steampipe DB with a HTTP API interface
 
